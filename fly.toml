@@ -11,6 +11,7 @@ primary_region = 'hkg'
 
 [env]
   PORT = '8080'
+  PATH = "/home/vcap/deps/0/python/bin:$PATH"
 
 [[services]]
   internal_port = 8000
